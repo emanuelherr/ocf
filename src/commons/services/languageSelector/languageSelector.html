@@ -1,0 +1,26 @@
+<ion-modal-view class="language-selector popup-language">
+    <ion-content scroll="false">
+        <div class="row row-title">
+            <div class="col text-center">
+                <h1 class="language-title" translate="OCF.LANGUAGE_SELECTOR.SELECT_LANGUAGE"></h1>
+            </div>
+        </div>
+        <div class="row row-language" ng-click="languagePopup.selectLangf('English')">
+            <div class="col text-center">
+                <i ng-if="languagePopup.selected == 'English'" class="fa fa-circle select-option selected-language" aria-hidden="true"></i>
+                <i ng-if="languagePopup.selected != 'English'" class="fa fa-circle-o select-option unselected-language" aria-hidden="true"></i>
+                <img src="assets/img/English.png" class="flag" alt="English flag"/>
+                <span class="language-label" translate="OCF.LANGUAGE_SELECTOR.LANGUAGES.ENGLISH"></span>
+            </div>
+        </div>
+
+        <div class="row row-language" ng-click="languagePopup.selectLangf('Spanish')">
+            <div class="col text-center">
+                <i ng-if="languagePopup.selected == 'Spanish'" class="fa fa-circle select-option selected-language" aria-hidden="true"></i>
+                <i ng-if="languagePopup.selected != 'Spanish'" class="fa fa-circle-o select-option unselected-language" aria-hidden="true"></i>
+                <img src="assets/img/Spanish.png" class="flag" alt="Spanish flag"/>
+                <span class="language-label" translate="OCF.LANGUAGE_SELECTOR.LANGUAGES.SPANISH"></span>
+            </div>
+        </div>
+    </ion-content>
+</ion-modal-view>

@@ -1,0 +1,51 @@
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.language-selector{
+  width: 274px;
+  height: 200px;
+  position: relative;
+  margin: 34% auto auto;
+
+  .row-title{
+
+    height: 60px;
+    margin-bottom: 30px;
+    .language-title{
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 30px;
+    }
+  }
+  .row-language{
+
+    height: 49px;
+    .select-option{
+      top: 2px;
+      left: 34px;
+      position: relative;
+      float: left;
+      font-size : 20px;
+
+    }
+    .selected-language{
+      color: #6db33f;
+    }
+    .unselected-language{
+      color: lightgray;
+    }
+    .flag{
+      float: left;
+      left: 70px;
+      position: absolute;
+    }
+    .language-label{
+      float: left;
+      position: absolute;
+      left: 105px;
+      font-size: 22px;
+    }
+  }
+}
+
+

@@ -1,0 +1,10 @@
+angular.module('ocf.constants', [])
+.constant('EnvironmentConfig', {"host":"https://dev3.zestdataservices.com/","apiPath":"api/1/","version":"1.0.${env.BUILD_NUMBER}","envName":"${ENV_NAME}","requestTimeout":30000,"requestTimeoutLong":120000})
+.constant('OCFConfig', {"host":"https://dev3.zestdataservices.com/","apiPath":"ocf-manager/1/","servicePath":"services/","configObject":"configObject","applications":"applications/","access":"access"})
+.constant('SessionConfig', {"cookieName":"zest_6220137ea63256c1ba1014724b94144c","userInformation":"userInformation","cookieLifeTime":1,"cookiePath":"/ocf","userApplications":"userApplications"})
+.constant('CouchDbConfig', {"host":"https://dev3.zestdataservices.com:6985/","name":"zest_ocf"})
+.constant('CouchBaseConfig', {"host":"https://dev3.zestdataservices.com:4986/","name":"dev3"})
+.constant('PersistenceConfig', {"daysToLive":2})
+.constant('PouchConfig', {"pouchdbName":"pouch_ocf","replicationRetries":3})
+.constant('StagingConfig', {"host":"https://dev3.zestdataservices.com/","apiPath":"zest-order-staging-api/1/","version":"1.0.${env.BUILD_NUMBER}","envName":"${ENV_NAME}","requestTimeout":30000,"requestTimeoutLong":120000})
+.constant('PutAwayConfig', {"host":"https://dev3.zestdataservices.com/","apiPath":"fpms-put-away-process/1/","version":"1.0.${env.BUILD_NUMBER}","envName":"${ENV_NAME}","requestTimeout":30000,"requestTimeoutLong":120000});
