@@ -1,7 +1,7 @@
 {
-  "name": "ocf",
+  "name": "@zest/ocf",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# ocf\"",
   "main": "dist/ocf-main.js",
   "dependencies": {
     "gulp-angular-filesort": "^1.1.1",
@@ -33,6 +33,14 @@
   "scripts": {
     "build": "gulp"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "zest",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelherr/ocf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emanuelherr/ocf/issues"
+  },
+  "homepage": "https://github.com/emanuelherr/ocf#readme"
 }
