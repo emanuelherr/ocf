@@ -24,9 +24,9 @@ gulp.task('dist',function() {
     .pipe(ngFilesort())
     .pipe(debug())
     .pipe(concat('ocf-main.js'))
-    .pipe(bytediff.start())
-    .pipe(uglify({mangle:false , compress: true}))
-    .pipe(bytediff.stop())
+    //.pipe(bytediff.start())
+    //.pipe(uglify({mangle:false , compress: true}))
+    //.pipe(bytediff.stop())
     .pipe(sourceMaps.write('.'))
     .pipe(gulp.dest('./dist'))
     .on('error',gulpUtil.log);
